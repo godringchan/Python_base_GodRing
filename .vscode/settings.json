@@ -1,0 +1,159 @@
+{
+    "python.linting.pylintEnabled":true,
+    "python.linting.enabled":true,
+    // yapf
+    "python.formatting.provider": "yapf",
+    // "python.formatting.blackPath": "${workspaceRoot}/.venv/bin/black",
+    // "python.formatting.blackArgs": [
+    //     "--line-length=90"
+    // ],
+    // flake8
+    "python.linting.flake8Enabled":true,
+    // "python.linting.flake8Args": [
+    //     "--max-line-length=90"
+    // ],
+
+    // 其他格式
+    "python.autoComplete.addBrackets": true,
+    // "python.testing.promptToConfigure": false,
+    // "search.followSymlinks": false,
+    // "python.testing.pytestEnabled": false,
+    // "python.testing.nosetestsEnabled": false,
+    // "python.testing.unittestEnabled": false,
+    // "python.testing.unittestArgs": [
+    //     "-v",
+    //     "-s",
+    //     ".",
+    //     "-p",
+    //     "*test.py"
+    // ],
+    // 库内容
+    "python.pythonPath": "D:/Python37/python.exe",
+    "editor.tabSize": 4,
+    "editor.fontFamily": "Consolas",
+         //忽略pylint检查代码时，出现无谓的波浪线的问题
+    "python.linting.pylintArgs": [
+            "--disable=W,C" 
+        ],
+    "python.autoComplete.extraPaths": [
+        "", 
+        "D:/Python37/Lib/idlelib", 
+        "D:/Python37/python37.zip", 
+        "D:/Python37/DLLs", 
+        "D:/Python37/lib", 
+        "D:/Python37", 
+        "C:/Users/cgl19/AppData/Roaming/Python/Python37/site-packages", 
+        "D:/Python37/lib/site-packages"],
+        // "d:\\my_python_code"],
+
+    "window.zoomLevel": -1,
+    // 编辑器的字体设置
+    "editor.fontLigatures": true,
+    // "editor.fontFamily": "Fira Code Light, 微软雅黑, Courier New",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500", //字体粗细
+    //  终端的字体设置
+    // "terminal.integrated.fontFamily": "微软雅黑",
+    "terminal.integrated.fontSize": 15,
+    "editor.mouseWheelZoom": true,
+    // 代码提示
+    "python.jediEnabled": false,
+    // 加括号
+    // "python.autoComplete.addBrackets":true,
+    "workbench.iconTheme": "vscode-icons",
+    
+    // 主题颜色
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#000000",
+        "activityBar.background": "#000000",
+        "editor.background": "#000000",
+    //     "editor.selectionForeground": "#8892d6",
+    //     "editor.foreground": "#343de2",
+    //     "editorLineNumber.activeForeground": "#ff0000",
+    //     "editorLineNumber.foreground": "#ffffff",
+    //     "descriptionForeground": "#5eff00",
+    //     "editor.selectionHighlightBackground": "#b8b8b833",
+        "terminal.background": "#000000",
+        "terminal.foreground": "#a2f0ab",
+        "textCodeBlock.background": "#ff0000",
+        "editorCodeLens.foreground": "#eeff00",
+        "editorUnnecessaryCode.border": "#ff0000",
+        "editorUnnecessaryCode.opacity": "#e0ff5771",
+        "editorGutter.commentRangeForeground": "#d0ce89",
+        "editorOverviewRuler.selectionHighlightForeground": "#ff0000"
+    },
+    // "workbench.colorCustomizations": {
+    //     "sideBar.background": "#000000",
+    //     "activityBar.background": "#000000",
+    //     "editor.background": "#000000",
+    //     "editor.selectionForeground": "#00AC00",
+    //     "editor.foreground": "#85e066",
+    //     "editorLineNumber.activeForeground": "#ff0000",
+    //     "editorLineNumber.foreground": "#ffffff",
+    //     "descriptionForeground": "#5eff00",
+    //     "editor.selectionHighlightBackground": "#b8b8b833",
+    //     "terminal.background": "#000000",
+    //     "terminal.foreground": "#0c5cdd",
+    //     "textCodeBlock.background": "#ff0000",
+    //     "editorCodeLens.foreground": "#eeff00",
+    //     "editorUnnecessaryCode.border": "#ff0000",
+    //     "editorUnnecessaryCode.opacity": "#10ee53dc",
+    //     "editorGutter.commentRangeForeground": "#d0ce89",
+    //     "editorOverviewRuler.selectionHighlightForeground": "#ff0000"
+    // },
+    // 自动保存设置
+    "files.autoSaveDelay": 1000,
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+    // "vsintellicode.python.completionsEnabled":true,
+    "files.encoding": "utf8",
+    // "python.jediEnabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "python.testing.promptToConfigure": false
+}
+
+// {
+//     // 自动保存设置
+//     "files.autoSaveDelay": 1000,
+//     "files.autoSave": "onFocusChange",
+//     "workbench.colorTheme": "Sublime Monokai",
+//     // "vsintellicode.python.completionsEnabled":true,
+//     "files.encoding": "utf8",
+//     "window.zoomLevel": -1,
+//     // 编辑器的字体设置
+//     "editor.fontLigatures": true,
+//     // "editor.fontFamily": "Fira Code Light, 微软雅黑, Courier New",
+//     "editor.fontSize": 17,
+//     "editor.fontWeight": "600", //字体粗细
+//     //  终端的字体设置
+//     // "terminal.integrated.fontFamily": "微软雅黑",
+//     "terminal.integrated.fontSize": 15,
+//     // 代码提示
+//     // "python.jediEnabled": true,
+//     // 加括号
+//     // "python.autoComplete.addBrackets":true,
+//     "workbench.iconTheme": "vscode-icons",
+//     "python.pythonPath": "D:\\Python37\\python.exe",
+//     "python.autoComplete.extraPaths": [
+//         "D:/Python37/Lib/idlelib",
+//         "D:/Python37/python37.zip",
+//         "D:/Python37/DLLs",
+//         "D:/Python37/lib",
+//         "D:/Python37",
+//         "C:/Users/cgl19/AppData/Roaming/Python/Python37/site-packages",
+//         "D:/Python37/lib/site-packages",
+//         "D:/Python37/lib/site-packages/win32",
+//         "D:/Python37/lib/site-packages/win32/lib",
+//         "D:/Python37/lib/site-packages/Pythonwin",
+//     ]
+// }
