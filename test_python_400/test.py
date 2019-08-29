@@ -1,15 +1,42 @@
-# y = [x*2 for x in range(5) if not x%2 == 0]
-# print(y)
-
-text = "i am %d years old" % 22
-print("i said %s" % text)
-print("i said %r" % text)
-
-# for x in range(100):
-#     if x%7 == 0:
-#         continue
-#     print(x)
+import os
 
 
-# a = 10 % 3
-# print(a)
+def print_board(board):
+    print(board['TL'] + '|' + board['TM'] + '|' + board['TR'])
+    print('-+-+-')
+    print(board['ML'] + '|' + board['MM'] + '|' + board['MR'])
+    print('-+-+-')
+    print(board['BL'] + '|' + board['BM'] + '|' + board['BR'])
+
+
+def main():
+    init_board = {
+        'TL': ' ', 'TM': ' ', 'TR': ' ',
+        'ML': ' ', 'MM': ' ', 'MR': ' ',
+        'BL': ' ', 'BM': ' ', 'BR': ' '
+    }
+    begin = True
+    while begin:
+        curr_board = init_board.copy()
+        begin = False
+        turn = 'x'
+        counter = 0
+        os.system('cls')
+        print_board(curr_board)
+        while counter < 9:
+            move = input('轮到%s走棋, 请输入位置: ' % turn)
+            if curr_board[move] == ' ':
+                counter += 1
+                curr_board[move] = turn
+                if turn == 'x':
+                    turn = 'o'
+                else:
+                    turn = 'x'
+            os.system('cls')
+            print_board(curr_board)
+        choice = input('再玩一局?(yes|no)')
+        begin = choice == 'yes'
+
+
+if __name__ == '__main__':
+    main()

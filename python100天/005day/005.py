@@ -9,11 +9,12 @@ while True:
     s1 = random.randint(1, 6)
     s2 = random.randint(1, 6)
     print("骰子one为{0}, 骰子two为{1}, 获得点数{2}".format(s1, s2, s1+s2))
-    if s1 + s2 == 7 or s1 + s2 == 11:
+    if s1 + s2 == 7 or\
+       s1 + s2 == 11:
         print("玩家胜利")
     elif (s1 + s2 == 2 or
-        s1 + s2 == 3 or
-        s1 + s2 == 12):
+          s1 + s2 == 3 or
+          s1 + s2 == 12):
         print("点数为{0}庄家胜利，玩家失败".format(s1+s2))
     else:
         temp = s1 + s2
