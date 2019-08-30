@@ -4,6 +4,9 @@ import time
 
 
 def main():
+    """
+    :param 屏幕显示走马灯
+    """
     connect = "天王盖地虎，宝塔镇河妖   "
 
     while True:
