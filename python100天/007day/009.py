@@ -12,7 +12,7 @@
 def main():
     people = [True] * 30
     killed, num, index = 0, 0, 0
-    while killed < 15 :
+    while killed < 15:
         if people[index]:
             num += 1
             # index +=1
