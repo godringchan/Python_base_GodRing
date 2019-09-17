@@ -28,23 +28,23 @@
     //     "*test.py"
     // ],
     // 库内容
-    "python.pythonPath": "D:/Python37/python.exe",
+    "python.pythonPath": "D:\\Python37\\python.exe",
     "editor.tabSize": 4,
     "editor.fontFamily": "Consolas",
          //忽略pylint检查代码时，出现无谓的波浪线的问题
     "python.linting.pylintArgs": [
             "--disable=W,C" 
         ],
-    "python.autoComplete.extraPaths": [
-        "", 
-        "D:/Python37/Lib/idlelib", 
-        "D:/Python37/python37.zip", 
-        "D:/Python37/DLLs", 
-        "D:/Python37/lib", 
-        "D:/Python37", 
-        "C:/Users/cgl19/AppData/Roaming/Python/Python37/site-packages", 
-        "D:/Python37/lib/site-packages"],
-        // "d:\\my_python_code"],
+    // "python.autoComplete.extraPaths": [
+    //     "", 
+    //     "D:/Python37/Lib/idlelib", 
+    //     "D:/Python37/python37.zip", 
+    //     "D:/Python37/DLLs", 
+    //     "D:/Python37/lib", 
+    //     "D:/Python37", 
+    //     "C:/Users/cgl19/AppData/Roaming/Python/Python37/site-packages", 
+    //     "D:/Python37/lib/site-packages"],
+    //     // "d:\\my_python_code"],
 
     "window.zoomLevel": -1,
     // 编辑器的字体设置
