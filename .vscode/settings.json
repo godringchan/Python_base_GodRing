@@ -32,9 +32,9 @@
     "editor.tabSize": 4,
     "editor.fontFamily": "Consolas",
          //忽略pylint检查代码时，出现无谓的波浪线的问题
-    "python.linting.pylintArgs": [
-            "--disable=W,C" 
-        ],
+    // "python.linting.pylintArgs": [
+    //         "--disable=W,C" 
+    //     ],
     // "python.autoComplete.extraPaths": [
     //     "", 
     //     "D:/Python37/Lib/idlelib", 
