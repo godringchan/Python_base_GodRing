@@ -11,6 +11,7 @@ class Player(OnlyOne):
     pass
 
 
+
 Player1 = Player()
 Player2 = Player()
 
