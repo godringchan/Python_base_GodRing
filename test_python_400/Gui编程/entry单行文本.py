@@ -54,7 +54,7 @@ class Application(tk.Frame):
                 # self.t_frame = tk.Frame(self.t_window)
                 # self.t_frame.pack()
                 # self.photo = tk.PhotoImage(file=self.photo_tk)
-                self.t_label = tk.Label(self.t_window, )
+                self.t_label = tk.Label(self.t_window)
                 self.t_label["image"] = self.photo_tk
                 # self.t_label.image = self.photo_tk
                 # self.label.create_image(1,1,image=self.photo_tk)

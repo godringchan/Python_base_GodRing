@@ -1,2 +1,3 @@
-from pygame import display
-mod
+import random
+a = random.randint(0, 10)
+print(a)
