@@ -4,7 +4,6 @@ import tkinter as tk
 from tkinter import messagebox
 
 
-
 class Application(tk.Frame):
     """一个经典的gui程序的类的写法"""
 
@@ -21,10 +20,11 @@ class Application(tk.Frame):
         self.btn_01["text"] = "点击送花"
         self.btn_01.pack()
         self.btn_01["command"] = self.songhua
-        self.btnQuit = tk.Button(self, text="退出", 
-        command=self.master.destroy)
+        self.btnQuit = tk.Button(self, text="退出",
+                                 command=self.master.destroy)
         self.btnQuit.pack()
-        self.btn_02 = tk.Button(self,text="点击打开小玉", command=self.call_new_window)
+        self.btn_02 = tk.Button(self, text="点击打开小玉",
+                                command=self.call_new_window)
         self.btn_02.pack()
 
     def creatlabel(self):
@@ -49,18 +49,18 @@ class Application(tk.Frame):
     def songhua(self):
         messagebox.showinfo("送花", "送你一朵玫瑰花")
 
-    
     def call_new_window(self):
         new_root = tk.Toplevel()
         new_root.geometry("400x600+500+50")
         new_frame = tk.Frame(new_root)
         new_frame.pack()
-        
+
         self.photo = tk.PhotoImage(file=r"E:\个人资料文件\秘密花园\图片\Gif\006Bp6bbgy1fvnd4y3e16g306o06okan.gif")
         new_lable1 = tk.Label(new_frame, image=self.photo)
         new_lable1.pack()
         button_1 = tk.Button(new_frame, text="新窗口")
         button_1.pack()
+
 
 def main():
     root = tk.Tk()
